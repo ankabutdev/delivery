@@ -1,1 +1,2 @@
 # delivery
+jamoaviy database shakillantirilmoqda
