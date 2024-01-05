@@ -1,6 +1,4 @@
-﻿using UserService.Domain.Entities.Clients;
-using UserService.Domain.Entities.Companies;
-using UserService.Domain.Enums;
+﻿using UserService.Domain.Enums;
 
 namespace UserService.Domain.Entities.Users;
 
@@ -15,13 +13,5 @@ public class User : BaseEntity
     public string ImagePath { get; set; }
 
     public UserRole UserRole { get; set; }
-
-    public Guid CompanyId { get; set; }
-
-    public Company Company { get; set; }
-
-    public Guid ClientId { get; set; }
-
-    public Client Client { get; set; }
 
 }
