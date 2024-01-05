@@ -1,6 +1,4 @@
-﻿using UserService.Domain.Entities.Companies;
-
-namespace UserService.Domain.Entities.Schedules;
+﻿namespace UserService.Domain.Entities.Schedules;
 
 public class Schedule : BaseEntity
 {
