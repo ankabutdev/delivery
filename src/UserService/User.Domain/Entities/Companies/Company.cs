@@ -5,8 +5,6 @@ namespace UserService.Domain.Entities.Companies;
 
 public class Company : BaseEntity
 {
-    public Guid UserId { get; set; }
-
     public Guid? MainId { get; set; }
 
     public string Name { get; set; }
@@ -34,8 +32,6 @@ public class Company : BaseEntity
     public string LatItude { get; set; }
 
     public string LongItude { get; set; }
-
-    public ICollection<User> Users { get; set; }
 
     public ICollection<Staff> Staffs { get; set; }
 }
