@@ -1,10 +1,13 @@
-﻿using UserService.Domain.Enums;
+﻿using UserService.Domain.Entities.Companies;
+using UserService.Domain.Enums;
 
 namespace UserService.Domain.Entities.Staffs;
 
 public class Staff : BaseEntity
 {
     public Guid CompanyId { get; set; }
+
+    public Company Company { get; set; }
 
     public string FullName { get; set; }
 
